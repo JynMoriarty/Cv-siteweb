@@ -1,0 +1,122 @@
+
+* {
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: "kaushans";
+    font-size: 50px;
+
+}
+.description{
+    font-family:"montserrat";
+}
+body{
+    background-color: #212B36;
+    color :white;
+    margin: 0%;
+}
+
+
+article {
+    
+    opacity:70;
+    width: 100%;
+    font-weight: lighter;
+}
+h3{
+    font-family:"montserrat";
+    font-weight: bolder;
+}
+h4{
+    font-family: "opensans";
+    font-style: italic;
+    
+}
+h2 {
+    background-color: rgb(109, 07, 26);
+    font-family: "kaushans";
+    color : white;
+    border: 1px solid#333;
+    padding: 15px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+    background-color: #606D5D;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+.box {
+    border: 2px solid darkblue;
+    height: 400px;
+    width: 500px;
+}
+
+
+nav {
+    
+    width: 100%;
+    max-width: 1000%;
+    height: 92px;
+
+}
+nav ul li {
+    display: flex;
+    padding: 15px;
+    
+}
+nav ul  {
+    
+    
+    list-style: none;
+    display: flex;
+    padding:0%;
+    
+}
+   
+
+
+a{  
+    font-family: "montserrat";
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+article ul li {
+    font-family: "montserrat";
+    font-family: italic;
+}   
+@font-face {
+    font-family: "lmroman12";
+    font-size: 48px;
+    font-weight: bold;
+    src: url("fonts/lmroman12-bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "montserrat";
+    font-size: 48px;
+    font-weight: bold;
+    src: url("fonts/MontserratAlternates-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "kaushans";
+    font-size: 48px;
+    font-weight: bold;
+    src: url("fonts/KaushanScript-Regular.otf") format("opentype");
+
+}
+@font-face {
+    font-family: "opensans";
+    font-size: 48px;
+    font-weight: bold;
+    src: url("fonts/OpenSans-Bold.ttf") format("opentype");
+}
